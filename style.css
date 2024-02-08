@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+}
+.container{
+    background-color: rgb(20, 20, 20);
+    height: auto;
+    margin-top: 0;
+
+}
+.heading{
+    padding-left: 6rem;
+    padding-top: 4rem;
+    color: rgb(230, 221, 221);
+    font-size: 5rem;
+}
+.wrapping{
+    padding-left: 5rem;
+    padding-top: 1rem;
+    width: 30rem;
+    color: rgb(230, 221, 221);
+    word-break: break-all;
+
+}
+img{
+    vertical-align: middle;
+    display: inline-block;
+}
+.grid-wrapper>div>img{
+    object-fit: cover;
+    border-radius: 5px;
+}
+.grid-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-auto-rows: 200px;
+    grid-auto-flow: row;   
+    padding-left: 5rem;
+    padding-top: 3rem;
+}
+.grid-wrapper01{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 0px;
+    margin-top: 11.9rem;
+    padding-left: 25rem ;
+}
+.woods{
+    margin-top: 10rem;
+    margin-left: 1.5rem;
+}
+.land{
+    margin-top: 6rem;
+    margin-left: -10rem;
+    z-index: 5;
+}
+.giraffe{
+    margin-top: 12rem;
+    margin-left: 2rem;
+    z-index: 10;
+}
+.elephant{
+    margin-top: 7rem;
+    margin-left: -12.5rem;
+}
+.river{
+    z-index: 11;
+}
+ol{
+    width: 10rem;
+    color: rgb(230, 221, 221);
+    margin-left: 5rem;
+    font-size: 20px;
+    margin-top: -3rem;
+}
